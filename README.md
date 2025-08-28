@@ -2,7 +2,7 @@
 
 Screenshotter is an application which takes screenshots of a selected window and puts the image into the clipboard. You can set a frequency in seconds on how often a new screenshot of the window will be taken.
 
-![alt text](image-2.png)
+![alt text](image-3.png)
 
 ## Motivations
 
