@@ -1,7 +1,7 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
   "productName": "screenshotter",
-  "version": "25.08.27",
+  "version": "25.8.27",
   "identifier": "screenshotter",
   "build": {
     "beforeDevCommand": "deno task dev",
