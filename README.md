@@ -14,15 +14,6 @@ You can configure the capture frequency (in seconds), making it easy to keep you
 I built Screenshotter to streamline my Anki workflow.  
 When creating cards, I wanted a quick way to grab images without the extra hassle of manually taking and importing screenshots each time.
 
-Here’s how it integrates with [Yomitan](https://github.com/yomidevs/yomitan):
-
-![Yomitan Settings](image.png)  
-*My personal Yomitan settings.*
-
-I also added a second button in Yomitan that uses `clipboard-image` (from Screenshotter) instead of Yomitan’s built-in `screenshot` feature:
-
-![Clipboard Integration](image-1.png)
-
 ---
 
 ## 🚀 Getting Started
@@ -50,9 +41,25 @@ Head over to the [Releases page](https://github.com/KolbyML/screenshotter/releas
 
 ---
 
-### 3. Use with Yomitan / Anki
+### 3. Yomitan Setup Guide
+Here’s how it integrates with [Yomitan](https://github.com/yomidevs/yomitan):
 
-- Configure Yomitan’s **“Add Card”** button to use the `clipboard-image` source.
+![Yomitan Usage Guide](yomitan-usage-guide.gif)
+
+
+
+#### 1. Open Yomitan's settings page
+![Yomitan Settings page button](image.png)
+#### 2. Click on `Configure Anki flashcards` in the Anki section
+![Configure Anki flashcards](image-1.png)
+#### 3. Copy the `{clipboard-image}` marker into the desired field
+![clipboard-image marker in the desired field](image-2.png)
+
+Finished! :D
+
+### 4. Use with Anki
+
+- Follow step 3 to set up Yomitan
 - Let **Screenshotter** run in the background to keep your clipboard filled with fresh screenshots.
 - When you press the button, Yomitan will grab the latest image directly from the clipboard and insert it into your Anki card.
 
